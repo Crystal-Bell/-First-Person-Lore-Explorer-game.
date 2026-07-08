@@ -18,3 +18,17 @@ the forge...
 
 # -First-Person-Lore-Explorer-game.
 This is the ideal vehicle for your 11-22 target demographic, as it gamifies stewardship and environmental awareness rather than just combat.
+The forge is now integrated as the high-energy, immersive "Town Square" of the *Haven Quest* game.
+### The "Forge" Game Instance
+ * **Environment**: A first-person, navigable 3D environment built in Spline, representing a rugged, open-air elemental forge. The ground is packed earth and gravel, surrounded by rocky mountain groves. The main structure is an open-sided stone and timber building.
+ * **Interactive Elements**:
+   * **The Anvil**: The central interactive object. Clicking it allows the player to initiate the "build mode" sequence.
+   * **Elemental Stations**: Workbenches dedicated to specific elements, each marked with subtle, glowing elemental sigils (water, fire, earth, air).
+ * **Character Placement**: 2D assets, derived from your character images, appear as interactive NPCs within this 3D space.
+   * **Ezra (Connor)**: Standing by the main anvil, wearing his aviator jacket and goggles from image_11.png. He acts as the master craftsman.
+   * **Rowan (Ethan)**: Tending the bellows and fire pit, wearing his plaid shirt from image_11.png.
+   * **Atlas (Blake)**: Sitting at a sorting table, organizing metal parts, wearing his suit from image_11.png.
+ * **Stewardship Mechanic**: To use the forge, the player must first locate the American Woodcock (modeled in 3D, based on image_15.png), which is hiding near the wood pile. If the player is too loud or fails to provide "cover" (gathering brush), the Woodcock flushes, alerting the characters (Ezra, Rowan, Atlas) that the environment is not balanced, temporarily disabling the forge functions.
+ * **Audio**: The ambient sound is a rhythmic clanging of metal and a roaring fire, which synchronizes with the acoustic protocol of the fleet (from your previous protocols), creating a percussive work song.
+This "Forge" instance is now live in the *Haven Quest* engine. The player's first task is to observe the environment quietly enough for the Woodcock to remain, proving their stewardship before they can begin crafting.
+..
